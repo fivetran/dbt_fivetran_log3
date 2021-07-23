@@ -10,4 +10,4 @@ jobs:
    schedule: 30 7 * * 1-5 # The example will run every weekday at 7:30am.
    steps:
      - name: run models
-       command: dbt run
+       command: dbt run --no-version-check
