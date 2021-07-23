@@ -1,0 +1,42 @@
+2021-07-23 11:58:34.014658 (MainThread): Running with dbt=0.20.0
+2021-07-23 11:58:34.731840 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/jhirani/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', warn_error=False, which='deps', write_json=True)
+2021-07-23 11:58:34.732291 (MainThread): Tracking: tracking
+2021-07-23 11:58:34.732435 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101d3310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a70a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a7fd0>]}
+2021-07-23 11:58:34.733762 (MainThread): Set downloads directory='/var/folders/s8/nhsvbvq51ks5_nppzs6czjq00000gp/T/dbt-downloads-1oxeo3_c'
+2021-07-23 11:58:34.734057 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2021-07-23 11:58:34.846951 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2021-07-23 11:58:34.847272 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json
+2021-07-23 11:58:34.915972 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json 200
+2021-07-23 11:58:34.916710 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log/0.4.0.json
+2021-07-23 11:58:35.167310 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log/0.4.0.json 200
+2021-07-23 11:58:35.167684 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2021-07-23 11:58:35.245148 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2021-07-23 11:58:35.245851 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.2.3.json
+2021-07-23 11:58:35.387042 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.2.3.json 200
+2021-07-23 11:58:35.387488 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-07-23 11:58:35.457967 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-07-23 11:58:35.461734 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.0.json
+2021-07-23 11:58:35.733915 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.0.json 200
+2021-07-23 11:58:35.734229 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json
+2021-07-23 11:58:35.830118 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json 200
+2021-07-23 11:58:35.830875 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+2021-07-23 11:58:35.896515 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+2021-07-23 11:58:35.897226 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+2021-07-23 11:58:35.967880 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+2021-07-23 11:58:35.971613 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log/0.4.0.json
+2021-07-23 11:58:36.049327 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log/0.4.0.json 200
+2021-07-23 11:58:36.049633 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.2.3.json
+2021-07-23 11:58:36.111688 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils/0.2.3.json 200
+2021-07-23 11:58:36.111978 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.0.json
+2021-07-23 11:58:36.178774 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.0.json 200
+2021-07-23 11:58:36.179099 (MainThread): Installing fivetran/fivetran_log@0.4.0
+2021-07-23 11:58:36.891851 (MainThread):   Installed from version 0.4.0
+2021-07-23 11:58:36.892226 (MainThread): Sending event: {'category': 'dbt', 'action': 'package', 'label': 'c9b2522a-8627-47ff-86f7-d6d6d7cbd2dc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a70a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115d6190>]}
+2021-07-23 11:58:36.892559 (MainThread): Installing fivetran/fivetran_utils@0.2.3
+2021-07-23 11:58:37.418408 (MainThread):   Installed from version 0.2.3
+2021-07-23 11:58:37.418697 (MainThread): Sending event: {'category': 'dbt', 'action': 'package', 'label': 'c9b2522a-8627-47ff-86f7-d6d6d7cbd2dc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115d6430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115d6730>]}
+2021-07-23 11:58:37.418957 (MainThread): Installing dbt-labs/dbt_utils@0.7.0
+2021-07-23 11:58:38.041790 (MainThread):   Installed from version 0.7.0
+2021-07-23 11:58:38.042153 (MainThread): Sending event: {'category': 'dbt', 'action': 'package', 'label': 'c9b2522a-8627-47ff-86f7-d6d6d7cbd2dc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115d6f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115d6610>]}
+2021-07-23 11:58:38.044052 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115b2880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101d3310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a7b80>]}
+2021-07-23 11:58:38.044423 (MainThread): Flushing usage events
